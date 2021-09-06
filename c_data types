@@ -1,0 +1,45 @@
+Primaary data type:(bulit_in):             Deliverd data type                 User definrd data type:
+ void
+ int                                          array                                structure
+ char(one byte memory)                        pointers                             union
+ double                                                                            enumeration   
+ float
+ 
+VOID:(nothing)
+CHAR:-128 to 127  =256 values for   1 byte
+INT: integer vaues   2 byte    n=16  -2^15 to   2^15-1         (fomula= -2^n-1  to  (+2^n-1)-1)
+FLOAT:decimal values 4byte 
+DOUBLE:              8byte
+
+   
+>>>>>>>>scanf()   $  printf()   
+ scanf(): input
+ printf(): output
+ to run this predefined function these functions are defined in a function <stdio.h> 
+ 
+ #include<stdio.h>
+ int main()
+ {
+       printf("i am lazy");
+       return 0;
+ }
+ 
+ printff("info.required");
+ printf("format specifiers",value1,value2..);
+ 
+>>>>>> FORMT SPECIFIERS:
+ %d  for int
+ %c  for char
+ %f      float
+ %s      string
+ #include<stdio.h>
+ int main()
+ {
+    int n1 =10;
+    printf("%d",n1);
+    return 0;
+  }
+  
+  
+  
+  
